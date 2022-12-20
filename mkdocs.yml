@@ -1,5 +1,13 @@
 site_name: CP Wiki
 theme:
   name: material
-plugins:
-  - blog
+  palette:
+  - scheme: cpalgo
+      primary: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+   - scheme: slate 
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
