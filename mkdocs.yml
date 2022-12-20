@@ -1,3 +1,5 @@
 site_name: CP Wiki
 theme:
   name: material
+plugins:
+  - blog
