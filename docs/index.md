@@ -4,7 +4,8 @@ I'm Abu Rifat Muhammed! This is my personal programming blog. The main perpose o
 
 * Algorithms & Data Structures
 * Solution to online judge problems
-* Contest Discussion
+* Contest Discussions
+* Other Programming Related Discussions
 
 ## Topics
 
@@ -12,6 +13,7 @@ I'm Abu Rifat Muhammed! This is my personal programming blog. The main perpose o
 * Graph Theory
 * Data Structures
 * Number Theory
+* Programming Tips and Tricks
 
 ## Online Judges
 
@@ -23,3 +25,4 @@ I'm Abu Rifat Muhammed! This is my personal programming blog. The main perpose o
 ## Programming Language
 
 * C++
+* C#
