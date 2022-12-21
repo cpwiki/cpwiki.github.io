@@ -1,17 +1,25 @@
-# Welcome to MkDocs
+# Welcome to Cpwiki
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+I'm Abu Rifat Muhammed! This is my personal programming blog. The main perpose of creating this blog is to sharing ideas and codes with others and keep them open to all. The articles are be based on,
 
-## Commands
+* Algorithms & Data Structures
+* Solution to online judge problems
+* Contest Discussion
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Topics
 
-## Project layout
+* Dynamic Programming
+* Graph Theory
+* Data Structures
+* Number Theory
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Online Judges
+
+* Leetcode
+* LightOJ
+* UVA (Online Judge)
+* Codeforces
+
+## Programming Language
+
+* C++
