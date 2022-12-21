@@ -1,6 +1,6 @@
 ---
 title: C# Environment Setup for Linux(deb) Users
-tags: [Backtracking,8-Queen,Classical]
+tags: [C#,C-Sharp,Linux,Terminal,Mono]
 ---
 ### Install Compiler
 Open the terminal and execute the following command,
