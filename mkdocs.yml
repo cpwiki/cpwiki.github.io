@@ -1,13 +1,48 @@
-site_name: CP Wiki
+site_name: Cpwiki
 theme:
+  logo: logo.png
+  favicon: logo.png
   name: material
   palette:
-  - scheme: cpalgo
+    - scheme: slate
       primary: deep purple
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-   - scheme: slate 
+      accent: deep purple
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Ubuntu Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+plugins:
+  - tags
+  - search
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/abu-rifat
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/aburifat
+    - icon: fontawesome/brands/facebook
+      link: https://fb.com/aburifatm
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<abu.rifat.m@gmail.com>
+copyright: Copyright &copy; 2022 Abu Rifat Muhammed
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
