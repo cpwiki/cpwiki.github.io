@@ -13,7 +13,7 @@ Create a file named **test.cs** with the following content and save the file.
 ```csharp
 using System;
 
-public class GFG {
+public class Hello {
 
 	static public void Main()
 	{
