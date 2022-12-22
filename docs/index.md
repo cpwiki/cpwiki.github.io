@@ -1,3 +1,6 @@
+---
+title: Home
+---
 # Welcome to Cpwiki
 
 I'm Abu Rifat Muhammed! This is my personal programming blog. The main perpose of creating this blog is to sharing ideas and codes with others and keep them open to all. The articles are be based on,

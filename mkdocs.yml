@@ -21,10 +21,10 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.sections
+    - navigation.expand
     - navigation.indexes
     - toc.follow
-    - toc.integrate
+    
     - navigation.top
 plugins:
   - tags
