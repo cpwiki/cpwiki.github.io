@@ -24,7 +24,6 @@ theme:
     - navigation.expand
     - navigation.indexes
     - toc.follow
-    
     - navigation.top
 plugins:
   - tags
@@ -51,3 +50,4 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+

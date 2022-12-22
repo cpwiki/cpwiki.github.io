@@ -84,10 +84,53 @@ Bubble Sort is the basic sorting algorithm. In this problem, the input will cons
 
 === "C#"
     ```csharp
-    
+    using System;
+
+    namespace Sorting{
+        class Sorter{
+            static void bubble_sort(int[] arr){
+                int n = arr.Length;
+                for(int i=0;i<n;i++){
+                    for(int j=i+1;j<n;j++){
+                        if(arr[i]>arr[j]){
+                            int tmp=arr[i];
+                            arr[i]=arr[j];
+                            arr[j]=tmp;
+                        }
+                    }
+                }
+            }
+
+            public static void Main(string[] args){
+                int n = Convert.ToInt32(Console.ReadLine());
+                int[] arr = Array.ConvertAll(Console.ReadLine().Trim().Split(' '),Convert.ToInt32);
+                bubble_sort(arr);
+                for(int i=0;i<n;i++){
+                    Console.Write(arr[i]+" ");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
     ```
 
 === "Python"
     ```python
-    
+    def bubble_sort(arr):
+        n=len(arr)
+        for i in range(0,n):
+            for j in range(i+1,n):
+                if arr[i]>arr[j]:
+                    tmp=arr[i]
+                    arr[i]=arr[j]
+                    arr[j]=tmp
+
+    if __name__ == "__main__":
+        n=int(input())
+        arr=input().split(' ')
+        arr=[int(val) for val in arr]
+        bubble_sort(arr)
+        for num in arr:
+            print(num, end=" ")
+        print("\n")
     ```
