@@ -21,7 +21,6 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.expand
     - navigation.indexes
     - toc.follow
     - navigation.top
@@ -50,4 +49,3 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-
