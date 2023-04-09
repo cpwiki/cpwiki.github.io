@@ -30,7 +30,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/abu-rifat
+      link: https://github.com/aburifat
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/aburifat
     - icon: fontawesome/brands/facebook
