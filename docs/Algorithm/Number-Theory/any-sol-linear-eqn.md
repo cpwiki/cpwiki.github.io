@@ -40,6 +40,7 @@ $$
 ```cpp
 #include<iostream>
 using namespace std;
+
 bool anySolution(ll a, ll b, ll c, ll &x0, ll &y0, ll &d)
 {
     d = exGcd(abs(a), abs(b), x0, y0);
