@@ -58,10 +58,10 @@ int exGcd( int a, int b, int& x0, int& y0 ) {
         return a;
     }
     int x1, y1;
-    int g = exGcd( b, a % b, x1, y1 );
+    int d = exGcd( b, a % b, x1, y1 );
     x0 = y1;
     y0 = x1 - y1 * ( a / b );
-    return g;
+    return d;
 }
 ```
 
